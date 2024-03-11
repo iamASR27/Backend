@@ -1,0 +1,14 @@
+.expense-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    border: 1px solid red;
+    padding: 0;
+    min-height: 100dvh;
+    overflow: auto;
+  }
+  
+  
+  

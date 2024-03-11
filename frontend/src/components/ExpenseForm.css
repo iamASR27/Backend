@@ -1,0 +1,59 @@
+.expense-form {
+  width: 50%;
+  height: auto;
+  background-color: #ffffff;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.expense-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.expense-form form div {
+  flex: 1;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.expense-form form button {
+  padding: 0.1rem;
+  width: 6rem;
+  height: 2rem;
+  background-color: white;
+  color: green;
+  border: 0.2px solid green;
+  border-radius: 4px;
+  margin-bottom: 0;
+}
+
+.expense-form label {
+  font-weight: 500;
+}
+
+.expense-form input,
+.expense-form textarea {
+  padding: 0.1rem;
+}
+
+@media (max-width: 768px) {
+  .expense-form form {
+    flex-direction: column;
+  }
+  /* .expense-form form div {
+    width: 100%;
+    flex: 1;
+  } */
+
+  .expense-form input,
+  .expense-form textarea {
+    flex: 1; /* Make inputs take up remaining space within divs */
+  }
+}

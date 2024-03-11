@@ -1,0 +1,39 @@
+.expense-list {
+  width: 70%; 
+  background-color: #ffffff;
+  height: auto;
+  /* border: 1px solid black;  */
+  padding: 1rem;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+
+.actionButtons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.expense-list table td,
+.expense-list table th {
+  text-align: center;
+}
+
+@media (max-width: 768px) { 
+  .expense-list {
+      width: 100%; 
+  }
+}
+
+
